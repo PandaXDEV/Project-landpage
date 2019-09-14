@@ -1,0 +1,212 @@
+body{
+    background-image: url(https://favpic.website/j/2019/03/fortnite-wallpaper-skull-trooper-fortnite-wallpaper-iphone-skull-trooper-fortnite-wallpapers-skull-trooper-cool-fortnite-wallpapers-skull-trooper-fortnite.png);
+    background-repeat: no-repeat;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    line-height: 2em;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+h1 {
+	line-height: 1.3em;
+	margin: 15px 0;
+	text-align: justify;
+    font-weight: 300;
+    font-family: 'Squada One', cursive;
+    font-size: 150px;
+    color:rgb(255, 255, 255);
+    
+}
+#main-header {
+	background: rgba(255, 254, 254, 0.322);
+	color: rgb(253, 4, 232);
+	height: 80px;
+}	
+	#main-header a {
+		color: rgb(0, 0, 0);
+}
+ 
+/*
+ * Logo
+ */
+#logo-header {
+	  float: left;
+	  padding: 15px 0 0 20px;
+    text-decoration: none;
+    font-family:'Sigmar One', cursive;
+    font-size: 60px;
+}
+	#logo-header:hover {
+		color: #7afc00;
+	}
+	
+	#logo-header .site-name {
+		display: block;
+		font-weight: 700;
+		font-size: 1.2em;
+	}
+	
+	#logo-header .site-desc {
+		display: block;
+		font-weight: 300;
+		font-size: 0.8em;
+		color: #999;
+	}
+	
+ 
+/*
+ * Navegación
+ */
+nav {
+    float: right;
+    font-size: 25px;
+    font-family: 'Squada One', cursive;
+    text-decoration: none;
+}
+	nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		padding-right: 20px;
+	}
+	
+		nav ul li {
+			display: inline-block;
+			line-height: 80px;
+		}
+			
+			nav ul li a {
+				display: block;
+				padding: 0 10px;
+				text-decoration: none;
+			}
+			
+				nav ul li a:hover {
+					background: #cc00ff;
+                }
+
+                form {
+                   
+                    margin: 9 auto;
+                    width: 400px;
+                    background-color: rgba(240, 248, 255, 0.171);
+                    padding: .5em;
+                    border: 8px solid rgb(0, 0, 0);
+                    border-radius: 1em;
+                }
+              
+                
+                form div + div {
+                    margin-top: 3em;
+                }
+              
+                
+                label {
+                   
+                    display: inline-block;
+                    width: 90px;
+                    text-align: right;
+                }
+              
+                
+                input, textarea {
+                  
+                    font: 19px 'Chilanka', cursive;
+                
+                   
+                    width: 300px;
+                    -moz-box-sizing: border-box;
+                    box-sizing: border-box;
+                
+                    
+                    border: 1px solid #999;
+                }
+                
+                
+                input:focus, textarea:focus {
+                   
+                    border-color: #000;
+                }
+                
+                
+                textarea {
+                    
+                    vertical-align: top;
+                
+                  
+                    height: 5em;
+                
+                  
+                    resize: vertical;
+                }
+                
+                .button {
+                    padding-left: 90px;
+                }
+                button {
+                    margin-left: .5em;
+                }
+                .texto{
+                    font-size: 29px;
+                    font-family: 'Modak', cursive;
+                    color: #00FFE6;
+                    text-shadow: 0 0 30px rgb(0, 0, 0);
+                  }
+                .lds-heart {
+                    display: inline-block;
+                    position: relative;
+                    width: 64px;
+                    height: 64px;
+                    transform: rotate(45deg);
+                    transform-origin: 32px 32px;
+                  }
+                  .lds-heart div {
+                    top: 23px;
+                    left: 19px;
+                    position: absolute;
+                    width: 26px;
+                    height: 26px;
+                    background: rgb(255, 0, 0);
+                    animation: lds-heart 1s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
+                  }
+                  .lds-heart div:after,
+                  .lds-heart div:before {
+                    content: " ";
+                    position: absolute;
+                    display: block;
+                    width: 26px;
+                    height: 26px;
+                    background: rgb(255, 0, 0);
+                  }
+                  .lds-heart div:before {
+                    left: -17px;
+                    border-radius: 50% 0 0 50%;
+                  }
+                  .lds-heart div:after {
+                    top: -17px;
+                    border-radius: 50% 50% 0 0;
+                  }
+                  @keyframes lds-heart {
+                    0% {
+                      transform: scale(0.95);
+                    }
+                    5% {
+                      transform: scale(1.1);
+                    }
+                    39% {
+                      transform: scale(0.85);
+                    }
+                    45% {
+                      transform: scale(1);
+                    }
+                    60% {
+                      transform: scale(0.95);
+                    }
+                    100% {
+                      transform: scale(0.9);
+                    }
+                  }
+                  
