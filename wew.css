@@ -36,8 +36,11 @@ h1 {
 	  float: left;
 	  padding: 15px 0 0 20px;
     text-decoration: none;
-    font-family:'Sigmar One', cursive;
-    font-size: 60px;
+    font-size: 0.7em;
+    line-height: 42px;
+    letter-spacing: -0.016em;
+    font-style: italic;
+
 }
 	#logo-header:hover {
 		color: #7afc00;
