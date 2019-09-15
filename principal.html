@@ -19,11 +19,17 @@
  body {
   font-family:'Squada One', cursive;
 }
-
+.mdl-card__actions > .mdl-button--icon {
+  margin-right: 3px;
+  margin-left: 3px;
+}
 .flip-card {
   width: 250px;
   height: 250px;
   perspective: 1000px;
+  float: left;
+  left: 50%;
+  right: 30%;
 }
 
 .flip-card-inner {
@@ -47,15 +53,16 @@
 }
 
 .flip-card-front {
-  margin-top: 5rem
+  margin-top: 3rem;
 }
 
-.flip-card-back {
-  background-color: #ffffffef;
+.flip-card-back{
+  background-color: aliceblue;
   color: rgb(0, 0, 0);
   transform: rotateY(180deg);
   margin-top: 5rem;
-  text-align: center
+  text-align: center;
+  margin-top: 3rem;
 }
 .h1{
     margin-top: 12px;
@@ -88,7 +95,7 @@
 
            </header>
            <div class="texto">
-           <img src="LGOL.png" class="logo">
+           <img src="images.png">
             <p>SOMOS UN EQUIPO COMPETITIVO EN FORTNITE ¿QUIERES </br>
                     UNIRTE A LA AVENTURA?,</br>
                     MANDA UN MENSAJE POR EL </br>
@@ -97,7 +104,19 @@
                 </p>
        </div>
 
-       <div class="flip-card">
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKo1-CaVCc-eePVXCn9dsBSxdgpdlDN6sdEDn5inP5C5oovE6K">
+              </div>
+              <div class="flip-card-back">
+                <h1>PRUEBAS</h1></br> 
+                <p style="font-size: 35px">TE ATREVES???</p> 
+                <p style="font-size: 45px">CONTACTANOS</p>
+              </div>
+            </div>
+          </div>
+          <div class="flip-card">
             <div class="flip-card-inner">
               <div class="flip-card-front">
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKo1-CaVCc-eePVXCn9dsBSxdgpdlDN6sdEDn5inP5C5oovE6K">

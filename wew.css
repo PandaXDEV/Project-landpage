@@ -54,7 +54,7 @@ img {
 }
 
 	#logo-header:hover {
-		color: #ff0101c2;
+		color: #fbff01;
 	}
 	
 	#logo-header .site-name {
@@ -166,8 +166,8 @@ nav {
                 .texto{
                     font-size: 29px;
                     font-family: 'Modak', cursive;
-                    color: rgb(255, 255, 255);
-                    text-shadow: 0 0 30px rgb(0, 0, 0);
+                    color: rgb(0, 0, 0);
+                    text-shadow: 0 0 30px rgb(255, 255, 255);
                   }
                 .lds-heart {
                     display: inline-block;
