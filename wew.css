@@ -1,9 +1,11 @@
 body{
-    background-image: url(https://favpic.website/j/2019/03/fortnite-wallpaper-skull-trooper-fortnite-wallpaper-iphone-skull-trooper-fortnite-wallpapers-skull-trooper-cool-fortnite-wallpapers-skull-trooper-fortnite.png);
+    background-image: url(http://conceitosopticos.com.br/wp-content/uploads/2016/12/template-fundo-site-conseitos-opticos-4.jpg);
     text-decoration: none;
     margin: 0;
     padding: 0;
     line-height: 2em;
+    border-color: #ff0000;
+    border: 4rem
 }
 img {
 	max-width: 100%;
@@ -24,9 +26,9 @@ img {
   border-radius: 5px 5px 0 0;
 }
 #main-header {
-	background: rgba(255, 254, 254, 0.322);
-	color: rgb(253, 4, 232);
-	height: 80px;
+	background: #ffffff96;
+	color: rgba(255, 255, 255, 0.226);
+  height: 80px;
 }	
 	#main-header a {
 		color: rgb(0, 0, 0);
@@ -54,21 +56,24 @@ img {
 }
 
 	#logo-header:hover {
-		color: #fbff01;
+    color: #01ffc8;
 	}
 	
 	#logo-header .site-name {
 		display: block;
 		font-weight: 700;
-		font-size: 1.2em;
+		font-size: 0.5em;
 	}
 	
 	#logo-header .site-desc {
 		display: block;
 		font-weight: 300;
 		font-size: 0.8em;
-		color: #999;
-	}
+		color: rgba(255, 255, 255, 0.432);
+  }
+  .site-name{
+    font-size: 2rem
+  }
 	
  
 /*
@@ -76,8 +81,8 @@ img {
  */
 nav {
     float: right;
-    font-size: 25px;
-    font-family: 'Squada One', cursive;
+    font-size: 20px;
+    font-family:'Fugaz One', cursive;
     text-decoration: none;
 }
 	nav ul {
@@ -99,14 +104,14 @@ nav {
 			}
 			
 				nav ul li a:hover {
-					background: #cc00ff;
+					background: rgb(255, 0, 255);
                 }
 
                 form {
                    
                     margin: 9 auto;
                     width: 400px;
-                    background-color: rgba(240, 248, 255, 0.171);
+                    background-color: rgb(255, 0, 0);
                     padding: .5em;
                     border: 8px solid rgb(0, 0, 0);
                     border-radius: 1em;
@@ -136,7 +141,7 @@ nav {
                     box-sizing: border-box;
                 
                     
-                    border: 1px solid #999;
+                    border: 1px solid rgb(255, 255, 255);
                 }
                 
                 
@@ -164,62 +169,33 @@ nav {
                     margin-left: .5em;
                 }
                 .texto{
-                    font-size: 29px;
-                    font-family: 'Modak', cursive;
-                    color: rgb(0, 0, 0);
-                    text-shadow: 0 0 30px rgb(255, 255, 255);
-                  }
-                .lds-heart {
-                    display: inline-block;
-                    position: relative;
-                    width: 64px;
-                    height: 64px;
-                    transform: rotate(45deg);
-                    transform-origin: 32px 32px;
-                  }
-                  .lds-heart div {
-                    top: 23px;
-                    left: 19px;
-                    position: absolute;
-                    width: 26px;
-                    height: 26px;
-                    background: rgb(255, 0, 234);
-                    animation: lds-heart 1s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
-                  }
-                  .lds-heart div:after,
-                  .lds-heart div:before {
-                    content: " ";
-                    position: absolute;
-                    display: block;
-                    width: 26px;
-                    height: 26px;
-                    background: rgb(255, 230, 0);
-                  }
-                  .lds-heart div:before {
-                    left: -17px;
-                    border-radius: 50% 0 0 50%;
-                  }
-                  .lds-heart div:after {
-                    top: -17px;
-                    border-radius: 50% 50% 0 0;
-                  }
-                  @keyframes lds-heart {
-                    0% {
-                      transform: scale(0.95);
-                    }
-                    5% {
-                      transform: scale(1.1);
-                    }
-                    39% {
-                      transform: scale(0.85);
-                    }
-                    45% {
-                      transform: scale(1);
-                    }
-                    60% {
-                      transform: scale(0.95);
-                    }
-                    100% {
-                      transform: scale(0.9);
-                    }
-                  }
+                    font-size: 27px;
+                    font-family: 'Fugaz One', cursive;
+                    color: rgb(0, 255, 200);
+                    text-shadow: 0 0 30px rgb(0, 0, 0);
+                    text-align: center;
+                    margin: 15rem;
+                    text-decoration: #000
+                }
+                .imagen{
+              margin-top: 7rem
+                }
+                .texto{
+                  font-size: 3rem;
+                  transition: 0.9s;
+                }
+                .elmejor{
+                  margin-top: 0 auto
+                }
+                .team{
+               color: rgb(255, 0, 255);
+               transition: 0.9s;
+              }
+              .team:hover{
+               color: rgb(0, 255, 200);
+              }
+              .texto:hover{
+                color: rgb(255, 0, 255)
+              }
+              
+            
