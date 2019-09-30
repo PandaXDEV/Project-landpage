@@ -1,5 +1,5 @@
 body{
-    background-image: url(http://conceitosopticos.com.br/wp-content/uploads/2016/12/template-fundo-site-conseitos-opticos-4.jpg);
+    background-image: url(https://4.bp.blogspot.com/-F6xXfesE-pE/U7Y2inHa6LI/AAAAAAABBSc/niViFwhZed0/s0/Clean+lines+green_HD.jpg);
     text-decoration: none;
     margin: 0;
     padding: 0;
@@ -52,11 +52,11 @@ img {
     font-size: 1.5em;
     line-height: 42px;
     letter-spacing: -0.015em;
-    font-family: 'Anton', sans-serif;
+    font-family: monospace;
 }
 
 	#logo-header:hover {
-    color: #01ffc8;
+    color: #09ff01;
 	}
 	
 	#logo-header .site-name {
@@ -104,14 +104,14 @@ nav {
 			}
 			
 				nav ul li a:hover {
-					background: rgb(255, 0, 255);
+					background: rgb(255, 255, 255);
                 }
 
                 form {
                    
                     margin: 9 auto;
                     width: 400px;
-                    background-color: rgb(255, 0, 0);
+                    background-color: rgb(0, 255, 0);
                     padding: .5em;
                     border: 8px solid rgb(0, 0, 0);
                     border-radius: 1em;
@@ -171,11 +171,12 @@ nav {
                 .texto{
                     font-size: 27px;
                     font-family: 'Fugaz One', cursive;
-                    color: rgb(0, 255, 200);
+                    color: rgb(43, 255, 0);
                     text-shadow: 0 0 30px rgb(0, 0, 0);
                     text-align: center;
                     margin: 15rem;
-                    text-decoration: #000
+                    text-decoration: #000;
+                    line-height: 1;
                 }
                 .imagen{
               margin-top: 7rem
@@ -188,14 +189,18 @@ nav {
                   margin-top: 0 auto
                 }
                 .team{
-               color: rgb(255, 0, 255);
+               color: rgb(255, 255, 255);
                transition: 0.9s;
               }
               .team:hover{
-               color: rgb(0, 255, 200);
+               color: rgb(30, 255, 0);
               }
               .texto:hover{
-                color: rgb(255, 0, 255)
+                color: rgb(255, 255, 255)
+              }
+
+              .body2{
+                background-image: url(https://img.wallpapersafari.com/desktop/1920/1080/67/50/YARZ2e.jpg);
               }
               
             
