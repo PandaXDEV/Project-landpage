@@ -1,3 +1,6 @@
+.memes{
+  background-image: url(http://hq-wallpapers.ru/wallpapers/3/hq-wallpapers_ru_holidays_14604_1920x1200.jpg);
+}
 body{
     background-image: url(https://4.bp.blogspot.com/-F6xXfesE-pE/U7Y2inHa6LI/AAAAAAABBSc/niViFwhZed0/s0/Clean+lines+green_HD.jpg);
     text-decoration: none;
@@ -80,8 +83,8 @@ img {
  */
 nav {
     float: right;
-    font-size: 20px;
-    font-family:'Fugaz One', cursive;
+    font-size: 19px;
+    font-family: 'Saira Stencil One', cursive;
     text-decoration: none;
 }
 	nav ul {
