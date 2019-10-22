@@ -1,55 +1,98 @@
-.memes{
-  background-image: url(http://hq-wallpapers.ru/wallpapers/3/hq-wallpapers_ru_holidays_14604_1920x1200.jpg);
-}
-body{
+body {
     background-image: url(https://4.bp.blogspot.com/-F6xXfesE-pE/U7Y2inHa6LI/AAAAAAABBSc/niViFwhZed0/s0/Clean+lines+green_HD.jpg);
     text-decoration: none;
     margin: 0;
     padding: 0;
     line-height: 2em;
-    border: 4rem
+    border: 4rem;
+    background-repeat: no-repeat;
 }
+
 img {
-	max-width: 100%;
-	height: auto;
+    max-width: 100%;
+    height: auto;
 }
-.logo{
-  float: left
+
+.logo {
+    float: left
 }
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+#josetonto {
+    background-image: url(https://d.allegroimg.com/original/03d84e/aabd8f0640a384eb457c08cdbd0d);
+}
+
+#HALLOWEEN {
+    color: orange;
+    font-size: 2rem;
+    font-family: 'Saira Stencil One', cursive;
+    text-shadow: 0 0 30px rgb(0, 0, 0);
+}
+
+#llega {
+    font-size: 9rem;
+    font-family: monospace;
+    transition: initial;
+}
+
+#texto {
+    font-size: 1.5rem;
+    font-family: 'Saira Stencil One', cursive;
+    margin-top: 19rem;
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 166, 0, 0.603);
+    text-align: center;
+    line-height: 60px;
+    margin-right: 50rem;
+    border-radius: 30px;
+}
+
+#NOTICIAS {
+    font-size: 10rem;
+    font-family: 'Saira Stencil One', cursive;
+    color: rgb(255, 255, 255);
+    margin-top: 20rem;
+    transition: 4.7s;
+    text-shadow: 0 0 30px rgb(0, 0, 0);
+    text-align: left;
 }
 
 .container {
-  padding: 2px 16px;
+    padding: 2px 16px;
 }
 
 img {
-  border-radius: 5px 5px 0 0;
+    border-radius: 5px 5px 0 0;
 }
+
 #main-header {
-	background: #ffffff96;
-	color: rgba(255, 255, 255, 0.226);
-  height: 80px;
-}	
-	#main-header a {
-		color: rgb(0, 0, 0);
+    background: #ffffff96;
+    color: rgba(255, 255, 255, 0.226);
+    height: 80px;
 }
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box
+
+#main-header a {
+    color: rgb(0, 0, 0);
 }
-.wrap{
-  width: 1100px;
-  margin: 50px auto;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
 }
+
+.wrap {
+    width: 1100px;
+    margin: 50px auto;
+}
+
+
 /*
  * Logo
  */
+
 #logo-header {
-	  float: left;
-	  padding: 15px 0 0 15px;
+    float: left;
+    padding: 15px 0 0 15px;
     text-decoration: none;
     font-size: 1.5em;
     line-height: 42px;
@@ -57,152 +100,150 @@ img {
     font-family: monospace;
 }
 
-	#logo-header:hover {
+#logo-header:hover {
     color: #09ff01;
-	}
-	
-	#logo-header .site-name {
-		display: block;
-		font-weight: 700;
-		font-size: 0.5em;
-	}
-	
-	#logo-header .site-desc {
-		display: block;
-		font-weight: 300;
-		font-size: 0.8em;
-		color: rgba(255, 255, 255, 0.432);
-  }
-  .site-name{
+}
+
+#logo-header .site-name {
+    display: block;
+    font-weight: 700;
+    font-size: 0.5em;
+}
+
+#logo-header .site-desc {
+    display: block;
+    font-weight: 300;
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.432);
+}
+
+.site-name {
     font-size: 2.5rem
-  }
-	
- 
+}
+
+
 /*
  * Navegación
  */
+
 nav {
     float: right;
     font-size: 19px;
     font-family: 'Saira Stencil One', cursive;
     text-decoration: none;
 }
-	nav ul {
-		margin: 0;
-		padding: 0;
-		list-style: none;
-		padding-right: 20px;
-	}
-	
-		nav ul li {
-			display: inline-block;
-			line-height: 80px;
-		}
-			
-			nav ul li a {
-				display: block;
-				padding: 0 10px;
-				text-decoration: none;
-			}
-			
-				nav ul li a:hover {
-					background: rgb(255, 255, 255);
-                }
 
-                form {
-                   
-                    margin: 9 auto;
-                    width: 400px;
-                    background-color: rgb(0, 255, 0);
-                    padding: .5em;
-                    border: 8px solid rgb(0, 0, 0);
-                    border-radius: 1em;
-                }
-              
-                
-                form div + div {
-                    margin-top: 3em;
-                }
-              
-                
-                label {
-                   
-                    display: inline-block;
-                    width: 90px;
-                    text-align: right;
-                }
-              
-                
-                input, textarea {
-                  
-                    font: 19px 'Chilanka', cursive;
-                
-                   
-                    width: 300px;
-                    -moz-box-sizing: border-box;
-                    box-sizing: border-box;
-                
-                    
-                    border: 1px solid rgb(255, 255, 255);
-                }
-                
-                
-                input:focus, textarea:focus {
-                   
-                    border-color: #000;
-                }
-                
-                
-                textarea {
-                    
-                    vertical-align: top;
-                
-                  
-                    height: 5em;
-                
-                  
-                    resize: vertical;
-                }
-                
-                .button {
-                    padding-left: 90px;
-                }
-                button {
-                    margin-left: .5em;
-                }
-                .texto{
-                    font-size: 27px;
-                    font-family: 'Fugaz One', cursive;
-                    color: rgb(43, 255, 0);
-                    text-shadow: 0 0 30px rgb(0, 0, 0);
-                    text-align: center;
-                    margin: 15rem;
-                    text-decoration: #000;
-                    line-height: 1;
-                }
-                .imagen{
-              margin-top: 7rem
-                }
-                .texto{
-                  font-size: 3rem;
-                  transition: 0.9s;
-                }
-                .elmejor{
-                  margin-top: 0 auto
-                }
-                .team{
-               color: rgb(255, 255, 255);
-               transition: 0.9s;
-              }
-              .team:hover{
-               color: rgb(30, 255, 0);
-              }
-              .texto:hover{
-                color: rgb(255, 255, 255)
-              }
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-right: 20px;
+}
 
-              .body2{
-                background-image: url(https://img.wallpapersafari.com/desktop/1920/1080/67/50/YARZ2e.jpg);
-              }
-              
-            
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background: rgb(255, 255, 255);
+}
+
+form {
+    margin: 9 auto;
+    width: 400px;
+    background-color: rgb(0, 255, 0);
+    padding: .5em;
+    border: 8px solid rgb(0, 0, 0);
+    border-radius: 1em;
+}
+
+form div+div {
+    margin-top: 3em;
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input,
+textarea {
+    font: 19px 'Chilanka', cursive;
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+input:focus,
+textarea:focus {
+    border-color: #000;
+}
+
+textarea {
+    vertical-align: top;
+    height: 5em;
+    resize: vertical;
+}
+
+.button {
+    padding-left: 90px;
+}
+
+button {
+    margin-left: .5em;
+}
+
+.texto {
+    font-size: 27px;
+    font-family: 'Fugaz One', cursive;
+    color: rgb(43, 255, 0);
+    text-shadow: 0 0 30px rgb(0, 0, 0);
+    text-align: center;
+    margin: 15rem;
+    text-decoration: #000;
+    line-height: 1;
+}
+
+.imagen {
+    margin-top: 7rem
+}
+
+.texto {
+    font-size: 3rem;
+    transition: 0.9s;
+}
+
+.elmejor {
+    margin-top: 0 auto
+}
+
+.team {
+    color: rgb(255, 255, 255);
+    transition: 0.9s;
+}
+
+.team:hover {
+    color: rgb(30, 255, 0);
+}
+
+.texto:hover {
+    color: rgb(255, 255, 255)
+}
+
+.body2 {
+    background-image: url(https://img.wallpapersafari.com/desktop/1920/1080/67/50/YARZ2e.jpg);
+}
+
+.targetas {
+    display: flex;
+    justify-content: space-between;
+}
