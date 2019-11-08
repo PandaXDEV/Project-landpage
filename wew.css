@@ -1,7 +1,5 @@
 body {
-    background-image: url(https://4.bp.blogspot.com/-F6xXfesE-pE/U7Y2inHa6LI/AAAAAAABBSc/niViFwhZed0/s0/Clean+lines+green_HD.jpg);
-    text-decoration: none;
-    margin: 0;
+    background-image: url(https://cdn.pcpartpicker.com/static/forever/images/userbuild/209431.938f49b8e7c850b668149b3966586e1f.jpg);
     padding: 0;
     line-height: 2em;
     border: 4rem;
@@ -18,7 +16,7 @@ img {
 }
 
 #josetonto {
-    background-image: url(https://d.allegroimg.com/original/03d84e/aabd8f0640a384eb457c08cdbd0d);
+    background-image: url();
 }
 
 #HALLOWEEN {
@@ -38,12 +36,12 @@ img {
     font-size: 1.5rem;
     font-family: 'Saira Stencil One', cursive;
     margin-top: 19rem;
-    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2);
-    background-color: rgba(255, 166, 0, 0.603);
+    box-shadow: 0 3px 8px 0 rgb(255, 0, 0);
+    background-color: rgba(255, 255, 255, 0.432);
     text-align: center;
     line-height: 60px;
     margin-right: 50rem;
-    border-radius: 30px;
+    border-radius: 40px;
 }
 
 #NOTICIAS {
@@ -101,7 +99,7 @@ img {
 }
 
 #logo-header:hover {
-    color: #09ff01;
+    color: #fffb01;
 }
 
 #logo-header .site-name {
@@ -129,7 +127,7 @@ img {
 nav {
     float: right;
     font-size: 19px;
-    font-family: 'Saira Stencil One', cursive;
+    font-family: 'Permanent Marker', cursive;
     text-decoration: none;
 }
 
@@ -158,7 +156,7 @@ nav ul li a:hover {
 form {
     margin: 9 auto;
     width: 400px;
-    background-color: rgb(0, 255, 0);
+    background-color: rgb(255, 251, 0);
     padding: .5em;
     border: 8px solid rgb(0, 0, 0);
     border-radius: 1em;
@@ -176,7 +174,7 @@ label {
 
 input,
 textarea {
-    font: 19px 'Chilanka', cursive;
+    font: 19px;
     width: 300px;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -203,12 +201,12 @@ button {
 }
 
 .texto {
-    font-size: 27px;
-    font-family: 'Fugaz One', cursive;
-    color: rgb(43, 255, 0);
+    font-size: 23px;
+    font-family: 'Permanent Marker', cursive;
+    color: rgb(255, 255, 255);
     text-shadow: 0 0 30px rgb(0, 0, 0);
-    text-align: center;
-    margin: 15rem;
+    text-align: left;
+    margin: 12rem;
     text-decoration: #000;
     line-height: 1;
 }
@@ -218,7 +216,7 @@ button {
 }
 
 .texto {
-    font-size: 3rem;
+    font-size: 2.3rem;
     transition: 0.9s;
 }
 
@@ -226,13 +224,13 @@ button {
     margin-top: 0 auto
 }
 
-.team {
+.setup {
     color: rgb(255, 255, 255);
     transition: 0.9s;
 }
 
-.team:hover {
-    color: rgb(30, 255, 0);
+.setup:hover {
+    color: rgb(255, 255, 255);
 }
 
 .texto:hover {
@@ -240,10 +238,14 @@ button {
 }
 
 .body2 {
-    background-image: url(https://img.wallpapersafari.com/desktop/1920/1080/67/50/YARZ2e.jpg);
+    background-color: lightblue
 }
 
 .targetas {
     display: flex;
     justify-content: space-between;
+}
+
+#desing {
+    color: #000;
 }
