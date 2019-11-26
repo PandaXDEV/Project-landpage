@@ -216,7 +216,7 @@ button {
 }
 
 .texto {
-    font-size: 2.3rem;
+    font-size: 2.1rem;
     transition: 0.9s;
 }
 
@@ -238,7 +238,7 @@ button {
 }
 
 .body2 {
-    background-color: lightblue
+    color: black;
 }
 
 .targetas {
